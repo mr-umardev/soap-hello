@@ -31,13 +31,14 @@ The WSDL service used is publicly accessible:
 
 ## 📁 Folder Structure
 
-soap_client/
-├── client.py # Main client code
-├── wsdl/ # Optional folder for saving WSDL locally
-│ └── calculator.wsdl
-├── venv/ # Virtual environment (created locally)
-├── requirements.txt # List of dependencies
-└── README.md # Project guide
+- `soap_client/`
+  - `client.py` – Main client code
+  - `wsdl/` – Optional folder for saving WSDL locally
+    - `calculator.wsdl`
+  - `venv/` – Virtual environment (created locally; should be in `.gitignore`)
+  - `requirements.txt` – List of dependencies
+  - `README.md` – Project guide and instructions
+
 
 ## Create and activate a virtual environment
 
