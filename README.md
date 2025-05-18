@@ -42,15 +42,15 @@ The WSDL service used is publicly accessible:
 
 ## Create and activate a virtual environment
 
-🔹 Windows
+🔹 Windows: 
 python -m venv venv
 venv\Scripts\activate
 
-## Install required dependencies
+## Install required dependencies: 
 
 pip install zeep
 
-## Run the client code
+## Run the client code: 
 
 python client.py
 
